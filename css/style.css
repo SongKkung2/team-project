@@ -1,0 +1,8 @@
+.d-none {display: none;}
+header {
+    background: url(../images/first_bg.png) no-repeat center / cover;
+    height: 566px;
+}
+.header-text {
+    text-align: center;
+}
