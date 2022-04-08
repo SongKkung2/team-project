@@ -1,0 +1,9 @@
+
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+.f1 {
+    font-family: 'Iropke-batang', serif;
+}
+.f2 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
