@@ -1,4 +1,13 @@
+@charset "urf-8";
 
+*{
+    padding: 0;
+    margin: 0
+}
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
 @import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 .f1 {
@@ -6,4 +15,82 @@
 }
 .f2 {
     font-family: 'Noto Sans KR', sans-serif;
+}
+.d-none{
+    display: none;
+}
+header {
+    width: 100%;
+    border-bottom: 1px solid #90B74A;
+    
+    
+}
+.gnb-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
+.sns-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.sns-icon a{
+    display: block;
+    background-color: #ccc;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sns-icon li:nth-child(1) a:hover{
+    background-color: #90B74A;
+}
+.sns-icon li:nth-child(2) a:hover{
+    background-color:  #1877f2;
+}
+.sns-icon li:nth-child(3) a:hover{
+    background-color: #cb0062;
+}
+.sns-icon li:nth-child(4) a:hover{
+    background-color: #ff0800;
+}
+.sns-icon li:nth-child(5) a:hover{
+    background-color: #b61c21;
+}
+
+.gnb-menu{
+    width: 790px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.gnb-menu a{
+    display: block;
+    padding: 31px 0 36px 0;
+}
+.gnb-menu a:hover{
+    color: #90B74A;
+   
+}
+.footer-wrap{
+    background-color: #30332E;
+}
+footer{
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-copy-wrap{
+    display: flex;
 }
