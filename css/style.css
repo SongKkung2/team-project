@@ -20,6 +20,10 @@
 body {
     color: #666;
 }
+a, a link {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 /* ==========STORY CONTENTS 1========== */
@@ -167,4 +171,41 @@ body {
 }
 .story3-wrap p:nth-last-child(1) {
     font-weight: bold;
+}
+/* ==========RECIPE CONTENTS 1========== */
+.recipe-top {
+    position: relative;
+    height: 260px;
+    width: 100%;
+    text-align: center;
+    background: url("../eunji-img/recipe-bg.jpg") center no-repeat;
+}
+#recipeForm {
+    position: fixed;
+    width: 544px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #6aa302;
+}
+.recipe-wrap {
+    display: flex;
+    position: relative;
+    height: 376px;
+    width: 1104px;
+    margin: 0 auto;
+}
+.recipe-list {
+    width: 266px;
+    height: 376px;
+    padding: 10px 10px 0 0;
+    
+}
+.recipe-list img {
+    width: 266px;
+    height: 266px;
+
+}
+.recipe-list img:hover{
+    transition: all .2s ease-out;
+
 }
