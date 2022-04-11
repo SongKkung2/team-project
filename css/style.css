@@ -10,8 +10,10 @@ a, a:hover {
 }
 @import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
 .f1 {
-    font-family: 'Iropke-batang', serif;
+    font-family: 'Iropke-Batang', serif;
+    
 }
 .f2 {
     font-family: 'Noto Sans KR', sans-serif;
@@ -21,18 +23,26 @@ a, a:hover {
 }
 header {
     width: 100%;
+    
     border-bottom: 1px solid #90B74A;
     
     
 }
 .gnb-wrap{
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     
     justify-content: space-between;
 }
-
+.logo{
+    padding: 10px 0;
+    
+}
+.logo img{
+  height: 103%;
+}
 
 .sns-icon{
     display: flex;
@@ -41,11 +51,11 @@ header {
 .sns-icon a{
     display: block;
     background-color: #ccc;
-    width: 34px;
-    height: 34px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
-    margin-left: 18px;
-    margin-top: 25px;
+    margin-left: 10px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,14 +77,16 @@ header {
 }
 
 .gnb-menu{
-    width: 790px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 .gnb-menu a{
     display: block;
-    padding: 31px 0 36px 0;
+    /* padding: 10px 0 10px 0; */
 }
 .gnb-menu a:hover{
     color: #90B74A;
@@ -84,13 +96,37 @@ header {
     background-color: #30332E;
 }
 footer{
-    width: 1200px;
-    height: 140px;
+    width: 1100px;
+    height: 100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+.footer-logo a {
+    display: block;
+    
+}
 .logo-copy-wrap{
     display: flex;
+}
+.footer-menu {
+    display: flex;
+    width: 370px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: space-between;
+} 
+
+.copy address, .copy p {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: bold;
+    margin:10px 0;
 }

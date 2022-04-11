@@ -1,0 +1,18 @@
+.product-1{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    
+}
+.number1{
+    text-align: center;
+    margin-top: 5rem;
+}
+.product-1 > p {
+    color: #333;
+    letter-spacing: -0.03em;
+    
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
