@@ -43,59 +43,67 @@
 </header>
 
 <section>
-    <div class="top-banner">
-        <div class="banner-btn">
-            <div id="right"><i class="fa-solid fa-chevron-right"></i></div>
-            <div id="left"><i class="fa-solid fa-chevron-left"></i></div>
-        </div>
-        <div id="banner_img">
-            <a href="#"><img src="images/chaeeun/banner1.jpg" alt="순식물성 연두에센스로 음식이 맛있어집니다."></a>
+    <div style="overflow: hidden;">
+        <div class="slide-container">
+            <div class="slide-box">
+                <img src="images/chaeeun/banner1.jpg" alt="">
+            </div>
+            <div class="slide-box">
+                <img src="images/chaeeun/banner2.jpg" alt="">
+            </div>
         </div>
     </div>
+
+    <button class="slide-1">1</button>
+    <button class="slide-2">2</button>
+    <button class="next">다음</button>
+    <button class="before">이전</button>
 </section>
 <section class="video">
-    <p>#콩발효에센스 #연두볶음밥</p>
-    <p>연두 하나만으로 이렇게 맛있는 볶음밥</p>
-    <iframe width="1200" height="685" src="https://www.youtube.com/embed/31C7P0iVtNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-</section>
-<section>
-    <article id="recipe1" class="f1">
-        <a href="#"><img src="images/chaeeun/recipe1.png" alt="봄나물무침"></a>
-        <div id="p_wrap">
-            <p>향긋한 봄나물 연두로 맛있게!</p>
-            <p>봄나물 무침</p>
-        </div>
-    </article>
-    <article id="recipe2" class="f1">
-        <a href="#"><img src="images/chaeeun/recipe2.jpg" alt="애호박전"></a>
-        <div id="p_wrap">
-            <p>전도 연두 하나로 쉽게!</p>
-            <p>애호박전</p>
-        </div>
-    </article>
-    <article id="recipe3" class="f1">
-        <a href="#"><img src="images/chaeeun/recipe3.jpg" alt="계란찜"></a>
-        <div id="p_wrap">
-            <p>연두와 계란으로 뚝딱 완성!</p>
-            <p>계란찜</p>
-        </div>
-    </article>
-    <button class="f2">더많은 <span>레시피보기</span></button>
-</section>
-<section>
-    <div id="foot_banner">
-        <ul id="slide">
-            <li>
-                <img src="images/chaeeun/yondu-red.png" alt="연두 청양초">
-                <div>
-                    <h4>칼칼함이 필요한 요리에</h4>
-                    <p>연두 청양초</p>
-                    <button><img src="images/chaeeun/icon_cart.png" alt="카트이미지">구매하기</button>
-                </div>
-            </li>
-        </ul>
+    <div class="video-wrap">
+        <p class="f1">#콩발효에센스 #연두볶음밥</p>
+        <p class="f1">연두 하나만으로 이렇게 맛있는 볶음밥</p>
+        <iframe width="800" height="452" src="https://www.youtube.com/embed/31C7P0iVtNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
     </div>
+</section>
+<div class="section-wrap">
+    <section class="recipe-section">
+    <ul class="recipe-wrap">
+        <li class="recipe">
+            <div class="p-wrap">
+                <p class="f2">향긋한 봄나물 연두로 맛있게!</p>
+                <p class="f1">봄나물 무침</p>
+             </div>
+            <img src="images/chaeeun/recipe1.png" alt="레시피 1">
+        </li>
+        <li class="recipe">
+            <img src="images/chaeeun/recipe2.jpg" alt="레시피 2">
+            <p class="f2">전도 연두 하나로 쉽게!</p>
+            <p class="f1">봄나물 무침</p>
+        </li>
+        <li class="recipe">
+            <img src="images/chaeeun/recipe3.jpg" alt="레시피 3">
+            <p class="f2">연두와 계란으로 뚝딱 완성!</p>
+            <p class="f1">계란찜</p>
+        </li>
+    </ul>
+        <button class="f2">더많은 <span>레시피보기</span></button>
+    </section>
+</div>
+<section>
+   <div class="foot-banner">
+       <div class="banner-wrap">
+           <div class="banner"><img src="images/chaeeun/index-con4-bg1.jpg" alt=""></div>
+           <div class="banner"><img src="images/chaeeun/index-con4-bg2.jpg" alt=""></div>
+           <div class="banner"><img src="images/chaeeun/index-con4-bg3.jpg" alt=""></div>
+           <div class="banner"><img src="images/chaeeun/index-con4-bg4.jpg" alt=""></div>
+       </div>
+   </div>
+   <button class="banner-1">1</button>
+   <button class="banner-2">2</button>
+   <button class="banner-3">3</button>
+   <button class="banner-4">4</button>
 </section>
 <div class="footer-wrap">
     <footer>
@@ -115,6 +123,7 @@
             <img src="images/chaeeun/footer-logo2.png" alt="">
     </footer>
 </div>
+<script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="script/main.js"></script>
 </body>
 </html>
