@@ -1,0 +1,58 @@
+@font-face{
+	font-family:'Iropke';
+	font-weight:normal;
+	src:url("../font/IropkeBatangM.eot");
+	src:local(※), url("../font/IropkeBatangM.woff") format("woff");
+	src:url("../font/IropkeBatangM.woff") format("woff");
+}
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+.f1 {
+    font-family: 'Iropke', serif;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a, a:link {text-decoration: none; color: inherit;}
+.d-none {display: none;}
+header {
+    background: url(../images/first_bg.png) no-repeat center / cover;
+    height: 566px;
+    padding-top: 220px;
+    margin-bottom: 150px;
+}
+.header-text {text-align: center; line-height: 2rem;}
+.header-text h2 {font-size: 1.8rem; color: #666; margin-bottom: 25px; letter-spacing: -3px;}
+.header-text h3 {font-size: 3.4rem; color: #6a9b2f; font-weight: 800; letter-spacing: -3px;}
+.header-text p {font-size: 1.3rem; color: #333; margin-top: 50px; font-weight: 500;}
+.header-text p strong {font-weight: 700;}
+
+#article1 {text-align: center; line-height: 2rem;}
+#article1 h2 {font-size: 1.7rem; color: #666; margin-bottom: 15px; letter-spacing: -3px;}
+#article1 h3 {font-size: 2.3rem; color: #333; font-weight: 800; letter-spacing: -3px; text-transform: capitalize;}
+#article1 p {font-size: 1.3rem; color: #666; margin-top: 35px; font-weight: 500;}
+#article1 p span {color: #6a9b2f;}
+#article1 h4 {font-size: 1.3rem; color: #6a9b2f; margin-top: 35px; font-weight: 500; text-decoration: underline; padding-bottom: 5px;}
+#article1 h4 span {font-weight: 700;}
+.studio {margin: 70px 0 100px 0;}
+
+.yd-recipe {
+    width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.food-img {position: relative;}
+.overay {
+    position: absolute; top: 0;
+    font-size: 2.5rem; color: white;
+    border-radius: 100%;
+    padding: 5%; border: 4px dashed #6a9b2f;
+    opacity: 0;
+} .overay:hover {opacity: 100;}
+.yd-recipe li {
+    color: #666;
+} .yd-recipe li:hover {color: #6a9b2f; font-weight: 600;}
+
+#article2 {background: url(../images/second_bg.png) no-repeat center / cover; height: 700px;}
+/* news======================================================================================== */
+#tab2, #tab3, #tab4 {display: none;} 
