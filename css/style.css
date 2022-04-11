@@ -1,8 +1,14 @@
 
-@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@font-face{
+	font-family:'Iropke';
+	font-weight:normal;
+	src:url("../font/IropkeBatangM.eot");
+	src:local(※), url("../font/IropkeBatangM.woff") format("woff");
+	src:url("../font/IropkeBatangM.woff") format("woff");
+}
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 .f1 {
-    font-family: 'Iropke-batang', serif;
+    font-family: 'Iropke', serif;
 }
 .f2 {
     font-family: 'Noto Sans KR', sans-serif;
