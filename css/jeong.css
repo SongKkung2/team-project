@@ -47,7 +47,7 @@ header {
     font-size: 2.5rem; color: white;
     border-radius: 100%;
     padding: 5%; border: 4px dashed #6a9b2f;
-    opacity: 0;
+    opacity:  0;
 } .overay:hover {opacity: 100;}
 .yd-recipe li {
     color: #666;
