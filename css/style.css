@@ -1,0 +1,26 @@
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+.f1 {
+    font-family: 'Iropke-batang', serif;
+}
+.f2 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a, a:link {text-decoration: none; color: inherit;}
+.d-none {display: none;}
+header {
+    background: url(../images/first_bg.png) no-repeat center / cover;
+    height: 566px;
+}
+.header-text {
+    text-align: center;
+}
+/* news======================================================================================================================= */
+.news-content {
+    background: gray;
+    display: flex;
+    width: 1200px;
+}
+.yd-news, .news-text {
+    font-size: 14px;
+}
