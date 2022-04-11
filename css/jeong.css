@@ -14,7 +14,7 @@ body {
 }
 a, a:link {text-decoration: none; color: inherit;}
 .d-none {display: none;}
-header {
+.hero {
     background: url(../images/first_bg.png) no-repeat center / cover;
     height: 566px;
     padding-top: 220px;
@@ -27,10 +27,10 @@ header {
 .header-text p strong {font-weight: 700;}
 
 #article1 {text-align: center; line-height: 2rem;}
-#article1 h2 {font-size: 1.7rem; color: #666; margin-bottom: 15px; letter-spacing: -3px;}
-#article1 h3 {font-size: 2.3rem; color: #333; font-weight: 800; letter-spacing: -3px; text-transform: capitalize;}
+#article1 h2, #article2 h2, #article3 h2 {font-size: 1.7rem; color: #666; margin-bottom: 15px; letter-spacing: -3px;}
+#article1 h3, #article2 h3, #article3 h3 {font-size: 2.3rem; color: #333; font-weight: 800; letter-spacing: -3px; text-transform: capitalize;}
 #article1 p {font-size: 1.3rem; color: #666; margin-top: 35px; font-weight: 500;}
-#article1 p span {color: #6a9b2f;}
+#article1 p span, #article3 p span {color: #6a9b2f;}
 #article1 h4 {font-size: 1.3rem; color: #6a9b2f; margin-top: 35px; font-weight: 500; text-decoration: underline; padding-bottom: 5px;}
 #article1 h4 span {font-weight: 700;}
 .studio {margin: 70px 0 100px 0;}
@@ -48,11 +48,37 @@ header {
     border-radius: 100%;
     padding: 5%; border: 4px dashed #6a9b2f;
     opacity:  0;
-} .overay:hover {opacity: 100;}
+} .overay:hover {opacity: 100; transition: all 0.2s;}
 .yd-recipe li {
     color: #666;
-} .yd-recipe li:hover {color: #6a9b2f; font-weight: 600;}
+} .yd-recipe li:hover {color: #6a9b2f; font-weight: 600; transition: all 0.2s;}
 
-#article2 {background: url(../images/second_bg.png) no-repeat center / cover; height: 700px;}
+#article2 {background: url(../images/second_bg.png) no-repeat center / cover; 
+    height: 800px;
+    text-align: center;
+    margin: 100px 0 100px 0;
+    padding-top: 110px;
+}
+#article2 ul {
+    font-size: 1.2rem; color: #666;
+    font-weight: 500; line-height: 50px;
+    margin: 40px 0 70px 0;
+}
+#article3 {text-align: center;}
+#article3 p {font-size: 1.1rem; margin: 30px 0 70px 0; color: #666; line-height: 1.5rem;}
+
+.bx-wrapper {
+    width: 1100px;
+    margin: 100px auto;
+    border: 0;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/3.png) no-repeat center;
+}
+.carousel li{
+    display: flex;
+    margin-left: 100px;
+}
 /* news======================================================================================== */
 #tab2, #tab3, #tab4 {display: none;} 

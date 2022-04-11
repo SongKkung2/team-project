@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/jeong.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>요리에센스 연두</title>
     <script>
         $(document).ready(function(){
@@ -24,6 +26,31 @@
 </head>
 <body>
     <header>
+        <div class="gnb-wrap">
+            <div class="logo">
+                <img src="images/chaeeun/logo.png" alt="요리에센스 연두">
+            </div>
+            <div class="icon-menu-wrap">
+                <ul class="sns-icon">
+                    <li><a href="#"><img src="images/chaeeun/icon1.png" alt="밴드"></a></li>
+                    <li><a href="#"><img src="images/chaeeun/icon2.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="images/chaeeun/icon3.png" alt="인스타"></a></li>
+                    <li><a href="#"><img src="images/chaeeun/icon4.png" alt="유투브"></a></li>
+                    <li><a href="#"><img src="images/chaeeun/icon5.png" alt="샘표"></a></li>
+                </ul>
+                <nav>
+                    <ul class="gnb-menu">
+                        <li><a href="#">연두 스토리</a></li>
+                        <li><a href="#">글로벌 연두</a></li>
+                        <li><a href="#">우리맛 레시피</a></li>
+                        <li><a href="#">연두소개</a></li>
+                        <li><a href="#">연두는 지금</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
         <h1 class="d-none">글로벌 요리에센스 연두</h1>
         <div class="header-text">
             <h2>글로벌 식생활 솔루션</h2>
@@ -31,7 +58,7 @@
             <p>‘지속 가능한 식생활’이 글로벌 트렌드가 되면서<br>
                 <strong>100% 순식물성 콩발효 에센스인 연두</strong>가 주목받고 있습니다.</p>
         </div>
-    </header>
+    </div>
     <section>
         <article id="article1">
             <h1 class="d-none">연두 스튜디오&레시피</h1>
@@ -74,12 +101,12 @@
         </article>
         <article id="article2">
             <h1 class="d-none">연두 수상경력</h1>
-                <h2>세계 최대 유기농&#183;건강식품 박람회</h2>
+                <h2>세계 최대 유기농 &#183; 건강식품 박람회</h2>
                 <h3 class="f1">2018 에너하임 자연식품박람회 ‘차세대 혁신 제품상’ 수상</h3>
                 <ul>
-                    <li><i class="fa-light fa-circle-check"></i>동물성 성분 없이도 풍부한 맛을 낼 수 있다는 점에서 혁신성을 인정받았습니다.</li>
-                    <li><i class="fa-light fa-circle-check"></i>Non-GMO, 자연발효, 無(무) 합성첨가물 등 5가지 조건을 충족하였습니다.</li>
-                    <li><i class="fa-light fa-circle-check"></i>지속 가능한 식품(Sustainable source)으로서 잠재력을 인정받았습니다.</li>
+                    <li><i class="fa-regular fa-circle-check"></i> 동물성 성분 없이도 풍부한 맛을 낼 수 있다는 점에서 혁신성을 인정받았습니다.</li>
+                    <li><i class="fa-regular fa-circle-check"></i> Non-GMO, 자연발효, 無(무) 합성첨가물 등 5가지 조건을 충족하였습니다.</li>
+                    <li><i class="fa-regular fa-circle-check"></i> 지속 가능한 식품(Sustainable source)으로서 잠재력을 인정받았습니다.</li>
                 </ul>
                 <img src="images/global_yd.png" alt="연두 제품경쟁력">
         </article>
@@ -90,8 +117,9 @@
             <p>스페인, 미국, 네덜란드 등 다양한 나라에서 즐기는 요리에센스 연두<br>
                 국내외 유명 셰프들은 <span>요리에센스 연두를 ‘magic sauce(매직 소스)’</span>라 부르며 연두에 열광하고 있습니다.</p>
             <ul class="carousel">
+                <div class="carousel-bg"></div>
                 <li>
-                    <img src="images/person1.jpg" alt="파스칼 바흐보">
+                    <div class="slide-img"><img src="images/person1.jpg" alt="파스칼 바흐보"></div>
                     <div class="text-wrap">
                         <div class="text1">
                             <h2>"</h2>
@@ -131,9 +159,24 @@
                 </li>
             </ul>
         </article>
-        <footer>
-            
-        </footer>
     </section>
+    <div class="footer-wrap">
+        <footer>
+            <div class="logo-copy-wrap">
+                    <div class="footer-logo"><a href="#"><img src="images/chaeeun/footer-logo.png" alt="요리에센스 연두"></a></div>
+                    <div class="copy">
+                        <ul class="footer-menu f2">
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이메일 무단수집거부</a></li>
+                        </ul>
+                        <address class="f2"> 서울시 중구 충무로2 샘표 식품주식회사 우)04557 고객지원실 : 080-996-7777 FAX : 070-4275-5285
+                        </address>
+                        <p class="f2">&copy;SEMPIO FOODS COMPANY</p>
+                    </div>
+            </div>
+                <img src="images/chaeeun/footer-logo2.png" alt="">
+        </footer>
+    </div>
 </body>
 </html>
