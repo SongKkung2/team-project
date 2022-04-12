@@ -1,3 +1,7 @@
+section{
+    position: relative;
+}
+
 .slide-container{
     width: 300vw;
     /* transform: translateX(-100vw); */
@@ -10,11 +14,62 @@
 .slide-box img {
     width: 100%;
 }
+
+.slide-1 , .slide-2{
+    background: #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 0;
+    
+}
+.silde-wrap{
+    transform: translate(-50% , -50%);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    
+}
+.slide-1{
+    margin-right: 20px;
+}
+
+.slide-1:hover , .slide-2:hover{
+    background: #90B74A;
+}
+.slide-1:focus , .slide-2:focus{
+    background: #90B74A;
+}
+.arrow-wrap{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}
+.arrow{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.before , .next{
+    font-size: 20px;
+    border: 1px solid white;
+    /* padding: 5px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    color: white;
+    opacity: 50%;
+}
 /* ==================================section1 */
 .video{
     width: 1200px;
     margin: 0 auto;
 }
+
 .video-wrap{
     display: flex;
     flex-direction: column;
@@ -41,11 +96,27 @@ iframe{
 /* ==================================secntion2 */
 .section-wrap{
     background: #f5f5f5;
+    height: 43rem;
 }
 .recipe-section{
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
     
+}
+.recipe a {
+    box-sizing: border-box;
+    display: block;
+    font-size: 0;
+    width: 260px;
+}
+.recipe-section > h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #094516;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
 }
 .recipe-wrap{
     display: flex;
@@ -54,12 +125,11 @@ iframe{
 }
 .recipe{
     width: 266px;
-    height: 396px;
+    /* height: 396px; */
     overflow: hidden;
     display: flex;
     flex-direction: column-reverse;
 }
-
 .p-wrap{
     background-color: white;
     color: black;
@@ -67,8 +137,50 @@ iframe{
     height: 130px;
     
 }
+.p-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 3rem;
+}
+.p-wrap p:nth-child(1){
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+
+.p-wrap p:nth-child(2){
+    margin-top: 1rem;
+    color: #333;
+    font-size: 22px;
+}
+.recipe-btn {
+    width: 220px;
+    height: 50px;
+    background-color: #388211;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 120%;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.recipe-btn > p {
+    text-align: center;
+    align-items: center;
+}
+.recipe-btn > span {
+    font-weight: bold;
+}
+.recipe-btn:hover{
+    background-color: #094516;
+    color: white;
+}
 /* ==================================sention 3 */
-.foot-banner{
+/* .foot-banner{
     overflow: hidden;
 }
 .banner-wrap{
@@ -81,5 +193,31 @@ iframe{
 }
 .banner img{
     width: 100%;
-}
+} */
+
+
 /* ==================================section4 */
+.banner1{
+    height: 640px;
+    background: url('../images/chaeeun/index-con4-bg1.jpg') center top no-repeat;
+    
+}
+.banner2{
+    height: 640px;
+    background: url('../images/chaeeun/index-con4-bg2.jpg') center top no-repeat;
+    transition: all ease 2s 0s;
+}
+.banner3{
+    height: 640px;
+    background: url('../images/chaeeun/index-con4-bg3.jpg') center top no-repeat;
+    transition: all ease 2s 0s;
+}
+.banner4{
+    height: 640px;
+    background: url('../images/chaeeun/index-con4-bg4.jpg') center top no-repeat;
+    transition: all ease 2s 0s;
+}
+
+.show {
+    display: block;
+}
