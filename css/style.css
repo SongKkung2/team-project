@@ -1,4 +1,12 @@
-
+@charset "urf-8";
+*{
+    padding: 0;
+    margin: 0
+}
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
 @font-face{
 	font-family:'Iropke';
 	font-weight:normal;
@@ -6,10 +14,122 @@
 	src:local(※), url("../font/IropkeBatangM.woff") format("woff");
 	src:url("../font/IropkeBatangM.woff") format("woff");
 }
-@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 .f1 {
     font-family: 'Iropke', serif;
 }
 .f2 {
     font-family: 'Noto Sans KR', sans-serif;
+}
+.d-none{
+    display: none;
+}
+header {
+    width: 100%;
+    
+    border-bottom: 1px solid #90B74A;
+    
+    
+}
+.gnb-wrap{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.logo{
+    padding: 10px 0;
+    
+}
+.logo img{
+  height: 103%;
+}
+
+.sns-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.sns-icon a{
+    display: block;
+    background-color: #ccc;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sns-icon li:nth-child(1) a:hover{
+    background-color: #90B74A;
+}
+.sns-icon li:nth-child(2) a:hover{
+    background-color:  #1877f2;
+}
+.sns-icon li:nth-child(3) a:hover{
+    background-color: #cb0062;
+}
+.sns-icon li:nth-child(4) a:hover{
+    background-color: #ff0800;
+}
+.sns-icon li:nth-child(5) a:hover{
+    background-color: #b61c21;
+}
+
+.gnb-menu{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.gnb-menu a{
+    display: block;
+    /* padding: 10px 0 10px 0; */
+}
+.gnb-menu a:hover{
+    color: #90B74A;
+   
+}
+.footer-wrap{
+    background-color: #30332E;
+}
+footer{
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+.footer-logo a {
+    display: block;
+    
+}
+.logo-copy-wrap{
+    display: flex;
+}
+.footer-menu {
+    display: flex;
+    width: 370px;
+    color: white;
+    font-size: 16px;
+    /* font-weight: bold; */
+    justify-content: space-between;
+} 
+
+.copy address, .copy p {
+    color: #ccc;
+    font-size: 12px;
+    /* font-weight: bold; */
+    margin:10px 0;
 }
