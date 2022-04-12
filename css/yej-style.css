@@ -235,6 +235,9 @@ a, a link {
     font-size: 18px;
     line-height: 1em;
 }
+.wrap {
+    transition: all .2s ease-out;
+}
 .recipeNum {
     color: #82b434;
 }
@@ -274,6 +277,10 @@ a, a link {
     color: #999;
     padding: 15px 0 10px 0;
     letter-spacing: -0.05em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
 }
 .recipe-wrap .f1 {
     font-size: 22px;
@@ -281,7 +288,7 @@ a, a link {
     line-height: 1em;
     letter-spacing: -0.05em;
     font-weight: bold;
-     overflow: hidden;
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     word-wrap: normal;
@@ -289,14 +296,43 @@ a, a link {
 .recipe-page {
     display: flex;
     font-size: 18px;
-    width: 540px;
+    width: 620px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 70px 0 40px 0 ;
+}
+.recipe-page li {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+
+    line-height: 2em;
+    color: #999;
 }
 .recipe-page a {
-    display: block;
-    min-width: 40px;
+    width: 40px;
     height: 40px;
-    margin: 10px;
+}
+.pageNum {
     color: #999;
+    width: 40px;
+    height: 40px;
+}
+.pageNum a {
+    width: 40px;
+    height: 40px;
+}
+.current {
+    background: rgba(106,155,47,1);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+.pageNum p:hover {
+    background: rgb(149, 181, 109);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    transition: all .2s ease-out;
 }
