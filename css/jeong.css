@@ -30,7 +30,7 @@ a, a:link {text-decoration: none; color: inherit;}
 #article1 h2, #article2 h2, #article3 h2 {font-size: 1.7rem; color: #666; margin-bottom: 15px; letter-spacing: -3px;}
 #article1 h3, #article2 h3, #article3 h3 {font-size: 2.3rem; color: #333; font-weight: 800; letter-spacing: -3px; text-transform: capitalize;}
 #article1 p {font-size: 1.3rem; color: #666; margin-top: 35px; font-weight: 500;}
-#article1 p span, #article3 p span {color: #6a9b2f;}
+#article1 p span, #article3 h4 span {color: #6a9b2f;}
 #article1 h4 {font-size: 1.3rem; color: #6a9b2f; margin-top: 35px; font-weight: 500; text-decoration: underline; padding-bottom: 5px;}
 #article1 h4 span {font-weight: 700;}
 .studio {margin: 70px 0 100px 0;}
@@ -48,10 +48,10 @@ a, a:link {text-decoration: none; color: inherit;}
     border-radius: 100%;
     padding: 5%; border: 4px dashed #6a9b2f;
     opacity:  0;
-} .overay:hover {opacity: 100; transition: all 0.2s;}
+} .overay:hover {opacity: 100; transition: all 0.2s ease-in-out;}
 .yd-recipe li {
     color: #666;
-} .yd-recipe li:hover {color: #6a9b2f; font-weight: 600; transition: all 0.2s;}
+} .yd-recipe li:hover {color: #6a9b2f; font-weight: 600; transition: all 0.2s ease-in-out;}
 
 #article2 {background: url(../images/second_bg.png) no-repeat center / cover; 
     height: 800px;
@@ -65,20 +65,25 @@ a, a:link {text-decoration: none; color: inherit;}
     margin: 40px 0 70px 0;
 }
 #article3 {text-align: center;}
-#article3 p {font-size: 1.1rem; margin: 30px 0 70px 0; color: #666; line-height: 1.5rem;}
+#article3 h4 {font-size: 1.1rem; margin: 30px 0 70px 0; color: #666; line-height: 1.5rem;}
 
 .bx-wrapper {
     width: 1100px;
-    margin: 100px auto;
+    margin: 80px auto;
+    margin-bottom: 120px;
     border: 0;
     box-shadow: none;
     position: relative;
     overflow: hidden;
-    background: url(../images/3.png) no-repeat center;
+    background: url(../images/carousel-bg.png) no-repeat center;
 }
-.carousel li{
-    display: flex;
-    margin-left: 100px;
-}
+.carousel li{display: flex; margin-left: 100px;}
+.text-wrap {margin-left: 20px; padding: 95px;}
+.text1 {color: white; font-size: 1.1rem; line-height: 2rem;}
+.text1 span {font-size: 2rem; color: #b2b2b2;}
+.text2 {margin-top: 50px; line-height: 2rem;}
+.text2-1 {color: white; font-size: 1.5rem;}
+.text2-2 {color: #b2b2b2; text-transform: capitalize;}
+.text2-3 {color: #f2c549;}
 /* news======================================================================================== */
 #tab2, #tab3, #tab4 {display: none;} 
