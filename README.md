@@ -42,7 +42,7 @@
 - https://www.figma.com/file/LolJZuSAl6MkzoMvtkFpo1/web-clone-project?node-id=0%3A1
 
 ### 사이트 제작 진행 현황
-- index (header, footer 작성 완료)
+- index (header, footer 작성 완료 banner1 , cont2 작성 완료, con3 > 제작결함 있음, foot-banner > scirpt 작성)
 - 연두 스토리
 - 글로벌 연두
 - 우리맛 레시피
