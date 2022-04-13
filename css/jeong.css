@@ -78,7 +78,7 @@ a, a:link {text-decoration: none; color: inherit;}
     background: url(../images/carousel-bg.png) no-repeat center;
 }
 .carousel li{display: flex; margin-left: 100px;}
-.text-wrap {margin-left: 20px; padding: 95px;}
+.slide-text {margin-left: 40px; padding: 95px;}
 .text1 {color: white; font-size: 1.1rem; line-height: 2rem;}
 .text1 span {font-size: 2rem; color: #b2b2b2;}
 .text2 {margin-top: 50px; line-height: 2rem;}
@@ -108,9 +108,10 @@ hr {border-style: solid 1px; color: rgb(248, 248, 248); margin-bottom: 40px;}
 .text-wrap {padding: 20px; line-height: 30px;}
 .box-text h2 {background-color: #d2b010; display: inline; color: white; padding: 3px 10px; vertical-align: middle;}
 .box-text .wrapwrap {background-color: #657b02;}
+.box-text .wrapwrap2 {background-color: #cf7900;}
 .box-text h3 {font-size: 1.2rem; margin-top: 10px; font-weight: 600;}
 .box-text p {font-size: 0.8rem; color: #666;}
-#box a:hover img {transform: scale(1.1); transition: all 0.2s;}
+#box a:hover img {transform: scale(1.1); transition: all 0.3s;}
 
 .page-list {display: flex; justify-content: center; width: 1100px; margin: 0 auto; column-gap: 20px;}
 .page-list li {color: rgb(136, 136, 136); padding: 12px 16px; margin-bottom: 70px; font-size: 1.1rem;}

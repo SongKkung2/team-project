@@ -19,7 +19,9 @@
     <script>
         $(document).ready(function(){
           $('.carousel').bxSlider({
-            mode: 'horizontal'
+              mode: 'horizontal',
+              autoControls: true,
+              pager: true,
           });
         });
       </script>
@@ -72,30 +74,30 @@
                 <li>
                     <div class="food-img">
                         <a href=""><img src="images/food1.png" alt="연두 알료올료"></a>
-                        <div class="overay"><a href=""><img src="images/arrow.png" alt=""></a></div>
+                        <div class="overay"><a href="https://yondu.us/recipe/spaghetti-yondu-olio/" target="_blank"><img src="images/arrow.png" alt=""></a></div>
                     </div>
-                    <div class="food-text"><a href="#">연두 알리오 올리오</a></div>
+                    <div class="food-text"><a href="https://yondu.us/recipe/spaghetti-yondu-olio/" target="_blank">연두 알리오 올리오</a></div>
                 </li>
                 <li>
                     <div class="food-img">
                         <a href=""><img src="images/food2.png" alt="연두 채소수프"></a>
-                        <div class="overay"><a href=""><img src="images/arrow.png" alt=""></a></div>
+                        <div class="overay"><a href="https://yondu.us/recipe/3minute-soup/" target="_blank"><img src="images/arrow.png" alt=""></a></div>
                     </div>
-                    <div class="food-text"><a href="#">연두 3분 채소 수프</a></div>
+                    <div class="food-text"><a href="https://yondu.us/recipe/3minute-soup/" target="_blank">연두 3분 채소 수프</a></div>
                 </li>
                 <li>
                     <div class="food-img">
                         <a href=""><img src="images/food3.png" alt="연두 주키니누들"></a>
-                        <div class="overay"><a href=""><img src="images/arrow.png" alt=""></a></div>
+                        <div class="overay"><a href="https://yondu.us/recipe/zucchini-noodles-alla-napolitana/" target="_blank"><img src="images/arrow.png" alt=""></a></div>
                     </div>
-                    <div class="food-text"><a href="#">연두 주키니 누들</a></div>
+                    <div class="food-text"><a href="https://yondu.us/recipe/zucchini-noodles-alla-napolitana/" target="_blank">연두 주키니 누들</a></div>
                 </li>
                 <li>
                     <div class="food-img">
                         <a href=""><img src="images/food4.png" alt="연두 미국 홈페이지"></a>
-                        <div class="overay"><a href=""><img src="images/arrow.png" alt=""></a></div>
+                        <div class="overay"><a href="https://yondu.us/" target="_blank"><img src="images/arrow.png" alt=""></a></div>
                     </div>
-                    <div class="food-text"><a href="#">연두 미국 홈페이지</a></div>
+                    <div class="food-text"><a href="https://yondu.us/" target="_blank">연두 미국 홈페이지</a></div>
                 </li>
             </ul>
         </article>
@@ -120,7 +122,7 @@
                 <div class="carousel-bg"></div>
                 <li>
                     <div class="slide-img"><img src="images/person1.jpg" alt="파스칼 바흐보"></div>
-                    <div class="text-wrap">
+                    <div class="slide-text">
                         <div class="text1">
                             <span><i class="fa-solid fa-quote-right"></i></span>
                             <p class="f1">콩을 발효시킨 연두가<br>육수를 낸 것 같은 깊은 맛을<br>낸다는 것이 너무 신비롭습니다.</p></div>
@@ -133,7 +135,7 @@
                 </li>
                 <li>
                     <div class="slide-img"><img src="images/person2.jpg" alt="에두아르드 차르투르크"></div>
-                    <div class="text-wrap">
+                    <div class="slide-text">
                         <div class="text1">
                             <span><i class="fa-solid fa-quote-right"></i></span>
                             <p class="f1">연두 순은 홍합의 풍미를 살려주고<br>버터의 맛과 향을 올려주어<br>구운 버터와 같은 맛을 내줍니다.</p></div>
@@ -146,7 +148,7 @@
                 </li>
                 <li>
                     <div class="slide-img"><img src="images/person3.jpg" alt="자우마 비아르네즈"></div>
-                    <div class="text-wrap">
+                    <div class="slide-text">
                         <div class="text1">
                             <span><i class="fa-solid fa-quote-right"></i></span>
                             <p class="f1">연두는 놀라운 맛을 냅니다.<br>자체의 맛은 거의 느껴지지 않으면서<br>요리를 맛있게 만듭니다.</p></div>
@@ -159,7 +161,7 @@
                 </li>
                 <li>
                     <div class="slide-img"><img src="images/person4.jpg" alt="강민구"></div>
-                    <div class="text-wrap">
+                    <div class="slide-text">
                         <div class="text1">
                             <span><i class="fa-solid fa-quote-right"></i></span>
                             <p class="f1">한국 음식은 '발효'입니다.<br>콩발효 기반으로 더 깊은 풍미를 줄 수 있죠.<br>음식의 풍미를 놀랍게 상승시켜 줍니다.</p></div>
@@ -172,7 +174,7 @@
                 </li>
                 <li>
                     <div class="slide-img"><img src="images/person5.jpg" alt="유현수"></div>
-                    <div class="text-wrap">
+                    <div class="slide-text">
                         <div class="text1">
                             <span><i class="fa-solid fa-quote-right"></i></span>
                             <p class="f1">한국의 전통 발효과학으로 탄생한<br>요리에센스 연두는 단순히 음식의 맛을<br>돋우기 위한 양념을 넘어선 약념입니다.</p></div>
@@ -185,7 +187,7 @@
                 </li>
                 <li>
                     <div class="slide-img"><img src="images/person6.jpg" alt="김대천"></div>
-                    <div class="text-wrap">
+                    <div class="slide-text">
                         <div class="text1">
                             <span><i class="fa-solid fa-quote-right"></i></span>
                             <p class="f1">요리하며 고수해 온 제 원칙이 '재료'거든요.<br>연두는 콩발효 에센스라 감칠맛이 풍부하여<br>재료의 맛을 살려 간을 할 수 있습니다.</p></div>
@@ -198,7 +200,7 @@
                 </li>
                 <li>
                     <div class="slide-img"><img src="images/person7.jpg" alt="장진모"></div>
-                    <div class="text-wrap">
+                    <div class="slide-text">
                         <div class="text1">
                             <span><i class="fa-solid fa-quote-right"></i></span>
                             <p class="f1">연두는 여러 재료를 함께 썼을 때<br>재료 하나하나의 맛을 살려줘<br>맛을 섬세하게 표현할 수 있습니다.</p></div>
