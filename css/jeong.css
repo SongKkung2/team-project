@@ -1,0 +1,118 @@
+@font-face{
+	font-family:'Iropke';
+	font-weight:normal;
+	src:url("../font/IropkeBatangM.eot");
+	src:local(※), url("../font/IropkeBatangM.woff") format("woff");
+	src:url("../font/IropkeBatangM.woff") format("woff");
+}
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+.f1 {
+    font-family: 'Iropke', serif;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a, a:link {text-decoration: none; color: inherit;}
+.d-none {display: none;}
+.hero {
+    background: url(../images/jeong/first_bg.png) no-repeat center / cover;
+    height: 566px;
+    padding-top: 220px;
+    margin-bottom: 150px;
+}
+.header-text {text-align: center; line-height: 2rem;}
+.header-text h2 {font-size: 1.8rem; color: #666; margin-bottom: 25px; letter-spacing: -3px;}
+.header-text h3 {font-size: 3.4rem; color: #6a9b2f; font-weight: 800; letter-spacing: -3px;}
+.header-text p {font-size: 1.3rem; color: #333; margin-top: 50px; font-weight: 500;}
+.header-text p strong {font-weight: 700;}
+
+#article1 {text-align: center; line-height: 2rem;}
+#article1 h2, #article2 h2, #article3 h2 {font-size: 1.7rem; color: #666; margin-bottom: 15px; letter-spacing: -3px;}
+#article1 h3, #article2 h3, #article3 h3 {font-size: 2.3rem; color: #333; font-weight: 800; letter-spacing: -3px; text-transform: capitalize;}
+#article1 p {font-size: 1.3rem; color: #666; margin-top: 35px; font-weight: 500;}
+#article1 p span, #article3 h4 span {color: #6a9b2f;}
+#article1 h4 {font-size: 1.3rem; color: #6a9b2f; margin-top: 35px; font-weight: 500; text-decoration: underline; padding-bottom: 5px;}
+#article1 h4 span {font-weight: 700;}
+.studio {margin: 70px 0 100px 0;}
+
+.yd-recipe {
+    width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.food-img {position: relative;}
+.overay {
+    position: absolute; top: 0;
+    font-size: 2.5rem; color: white;
+    border-radius: 100%;
+    padding: 5%; border: 4px dashed #6a9b2f;
+    opacity:  0;
+} .overay:hover {opacity: 100; transition: all 0.2s ease-in-out;}
+.yd-recipe li {
+    color: #666;
+} .yd-recipe li:hover {color: #6a9b2f; font-weight: 600; transition: all 0.2s ease-in-out;}
+
+#article2 {background: url(../images/jeong/second_bg.png) no-repeat center / cover; 
+    height: 800px;
+    text-align: center;
+    margin: 100px 0 100px 0;
+    padding-top: 110px;
+}
+#article2 ul {
+    font-size: 1.2rem; color: #666;
+    font-weight: 500; line-height: 50px;
+    margin: 40px 0 70px 0;
+}
+#article3 {text-align: center;}
+#article3 h4 {font-size: 1.1rem; margin: 30px 0 70px 0; color: #666; line-height: 1.5rem;}
+
+.bx-wrapper {
+    width: 1100px;
+    margin: 80px auto;
+    margin-bottom: 120px;
+    border: 0;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/jeong/carousel-bg.png) no-repeat center;
+}
+.carousel li{display: flex; margin-left: 100px;}
+.slide-text {margin-left: 40px; padding: 95px;}
+.text1 {color: white; font-size: 1.1rem; line-height: 2rem;}
+.text1 span {font-size: 2rem; color: #b2b2b2;}
+.text2 {margin-top: 50px; line-height: 2rem;}
+.text2-1 {color: white; font-size: 1.5rem;}
+.text2-2 {color: #b2b2b2; text-transform: capitalize;}
+.text2-3 {color: #f2c549;}
+/* news======================================================================================== */
+#news-section {background: #f5f5f5;}
+.tab_menu {width: 1100px; height: 2330px; margin: 0 auto; padding-top: 50px;}
+.tab_menu .list {
+    display: flex; justify-content: center;
+    font-size: 1.3rem; color: #666; text-transform: uppercase;
+    column-gap: 50px;
+}
+.tab_menu .list li {
+    padding: 10px;
+} .list li:active {border-bottom: 5px solid #6a9b2f;}
+.list li a {padding: 20px;}
+hr {border-style: solid 1px; color: rgb(248, 248, 248); margin-bottom: 40px;}
+#tab2, #tab3, #tab4 {display: none;}
+
+#box {float: left; width: 540px; height: auto;}
+.boxing {margin-bottom: 20px;}
+.box-margin {margin-right: 20px;}
+.box-img {margin-bottom: 10px; overflow: hidden; width: 540px;}
+.box-text {background:white; width: 540px; overflow: hidden;}
+.text-wrap {padding: 20px; line-height: 30px;}
+.box-text h2 {background-color: #d2b010; display: inline; color: white; padding: 3px 10px; vertical-align: middle;}
+.box-text .wrapwrap {background-color: #657b02;}
+.box-text .wrapwrap2 {background-color: #cf7900;}
+.box-text h3 {font-size: 1.2rem; margin-top: 10px; font-weight: 600;}
+.box-text p {font-size: 0.8rem; color: #666;}
+#box a:hover img {transform: scale(1.1); transition: all 0.3s;}
+
+.page-list {display: flex; justify-content: center; width: 1100px; margin: 0 auto; column-gap: 20px;}
+.page-list li {color: rgb(136, 136, 136); padding: 12px 16px; margin-bottom: 70px; font-size: 1.1rem;}
+.page-list li:hover {background-color: #6a9b2f; border-radius: 50%; color: white; transition: all 0.2s;}
