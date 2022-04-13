@@ -200,6 +200,7 @@ iframe{
 .banner1{
     height: 640px;
     background: url('../images/chaeeun/index-con4-bg1.jpg') center top no-repeat;
+    transition: all ease 2s 0s;
     
 }
 .banner2{
@@ -220,4 +221,13 @@ iframe{
 
 .show {
     display: block;
+}
+.banner-item1{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    padding: 100px 0 100px 0;
 }
