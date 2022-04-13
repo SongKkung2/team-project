@@ -15,7 +15,7 @@ body {
 a, a:link {text-decoration: none; color: inherit;}
 .d-none {display: none;}
 .hero {
-    background: url(../images/first_bg.png) no-repeat center / cover;
+    background: url(../images/jeong/first_bg.png) no-repeat center / cover;
     height: 566px;
     padding-top: 220px;
     margin-bottom: 150px;
@@ -53,7 +53,7 @@ a, a:link {text-decoration: none; color: inherit;}
     color: #666;
 } .yd-recipe li:hover {color: #6a9b2f; font-weight: 600; transition: all 0.2s ease-in-out;}
 
-#article2 {background: url(../images/second_bg.png) no-repeat center / cover; 
+#article2 {background: url(../images/jeong/second_bg.png) no-repeat center / cover; 
     height: 800px;
     text-align: center;
     margin: 100px 0 100px 0;
@@ -75,7 +75,7 @@ a, a:link {text-decoration: none; color: inherit;}
     box-shadow: none;
     position: relative;
     overflow: hidden;
-    background: url(../images/carousel-bg.png) no-repeat center;
+    background: url(../images/jeong/carousel-bg.png) no-repeat center;
 }
 .carousel li{display: flex; margin-left: 100px;}
 .slide-text {margin-left: 40px; padding: 95px;}
