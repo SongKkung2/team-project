@@ -32,8 +32,6 @@ a, a link {
     background: #f5f5f5;
     text-align: center;
 }
-   
-
 .story1-wrap h2 {
     position: relative;
     font-size: 52px;
@@ -48,7 +46,7 @@ a, a link {
     content: '';
     display: block;
     position: absolute;
-    background: url('../eunji-img/story-h2-bg.png') 0 0 no-repeat;
+    background: url('../images/eunji-img/story-h2-bg.png') 0 0 no-repeat;
     width: 92px;
     height: 92px;
     left: 50%;
@@ -67,6 +65,8 @@ a, a link {
 .story-cont1 li {
     width: 350px;
     text-align: center;
+    color: #666;
+   
 }
 .story-cont1 li > img {
     margin: 20px 0;
@@ -91,7 +91,7 @@ a, a link {
     width: 100%;
     height: 1000px;
     text-align: center;
-    background: url('../eunji-img/story-bg1.jpg') center no-repeat;
+    background: url('../images/eunji-img/story-bg1.jpg') center no-repeat;
 }
 .story2img-wrap {
     display: flex;
@@ -121,7 +121,7 @@ a, a link {
     content: '';
     display: block;
     position: absolute;
-    background: url('../eunji-img/quotes-left.png') 0 0 no-repeat;
+    background: url('../images/eunji-img/quotes-left.png') 0 0 no-repeat;
     width: 50px;
     height: 34px;
     left: -15%;
@@ -131,7 +131,7 @@ a, a link {
     content: '';
     display: block;
     position: absolute;
-    background: url('../eunji-img/quotes-right.png') 0 0 no-repeat;
+    background: url('../images/eunji-img/quotes-right.png') 0 0 no-repeat;
     width: 50px;
     height: 34px;
     left: 50%;
@@ -150,7 +150,7 @@ a, a link {
 .story3-wrap {
     width: 100%;
     height: 730px;
-    background: url("../eunji-img/story-bg2.jpg") center no-repeat;
+    background: url("../images/eunji-img/story-bg2.jpg") center no-repeat;
     text-align: center;
 }
 .story3-wrap h2 {
@@ -177,7 +177,7 @@ a, a link {
     height: 260px;
     width: 100%;
     text-align: center;
-    background: url("../eunji-img/recipe-bg.jpg") center no-repeat;
+    background: url("../images/eunji-img/recipe-bg.jpg") center no-repeat;
 }
 .recipe-text {
     color: #fff;
@@ -202,6 +202,9 @@ a, a link {
     margin: 60px auto;
 
 }
+#recipeForm input:focus{
+    outline:none;
+}
 #recipeSerch {
     position: absolute;
     border: 1px solid #ccc;
@@ -214,7 +217,9 @@ a, a link {
     letter-spacing: -0.05em;
     color: #333;
     line-height: 48px;
+    padding: 0 15px;
 }
+
 #serchBTN {
     position: absolute;
     border: 0;
@@ -227,6 +232,7 @@ a, a link {
 #recipeList {
     padding-top: 70px;
     background: #f5f5f5;
+
 }
 .all-recipe {
     width: 1104px;
@@ -235,35 +241,33 @@ a, a link {
     font-size: 18px;
     line-height: 1em;
 }
-.wrap {
-    transition: all .2s ease-out;
-}
 .recipeNum {
     color: #82b434;
 }
 .recipe-wrap {
     display: flex;
-    position: relative;
     height: 376px;
     width: 1104px;
     margin: 20px auto;
 }
-.recipe-list {
+.recipe-list { 
     width: 266px;
     height: 376px;
     padding: 10px 10px 10px 0;
-
+    
+}
+.recipe-wrap li:hover img {
+    transform : scale(1.1);
+    transition: all .3s ease-out;
+}
+.recipe-img {
+    overflow: hidden;
 }
 .recipe-list img {
     width: 266px;
     height: 266px;
-    
-}
-.recipe-list img:hover {
-    transition: all 2s ease-out;
-    transform: matrix(1, 0, 0, 1, 0, 0); 
-}
 
+}
 .list-txt {
     width: 266px;
     height: 115px;
